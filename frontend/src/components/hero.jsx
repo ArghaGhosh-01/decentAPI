@@ -1,9 +1,11 @@
 // src/Hero.js
 import React from 'react';
+import illu from '../assets/illu.png';
 
 function Hero() {
   return (
     <div className="flex justify-center items-center mt-40 mx-7">
+     <div className=' bg-red-800 rounded-full absolute circle2'></div>
       <div className="flex flex-col md:flex-row w-full max-w-7xl">
         <div className="flex-1 md:order-1 order-1" style={{ flex: 3 }}>
           <div className="p-4">
@@ -16,16 +18,14 @@ function Hero() {
             Explore
           </button>
           <button className="text-white button mx-4">
-            Contact Us
+            Login /Signup
           </button>
             </span>
           </div>
         </div>
         <div className="flex-1 md:order-2 order-2" style={{ flex: 2 }}>
-          <div className="bg-gray-100 p-4">
-            {/* Right section content goes here */}
-            <h2 className="text-xl font-bold">Image Section</h2>
-            <p>This is the right section with a width ratio of 2.</p>
+          <div className="p-4">
+          <img src={illu} height='400' width='500' alt='hero'/>
           </div>
         </div>
       </div>

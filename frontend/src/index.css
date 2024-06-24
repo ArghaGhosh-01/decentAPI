@@ -5,7 +5,7 @@
 
 .button {
     background-color: #FF4646;
-    padding: 4px 10px;
+    padding: 5px 14px;
     border-radius: 11px;
     color: white; /* Ensuring text is visible */
     border: none; /* Removing default border */
@@ -30,7 +30,9 @@
 }
 
 .circle2 {
-    box-shadow: 0 0 100px 100px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
+    box-shadow: 0 0 100px 80px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
+    right: -60px;
+    bottom: 250px;
 }
 
 .body
