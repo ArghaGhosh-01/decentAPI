@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button {
+    background-color: #FF4646;
+    padding: 4px 10px;
+    border-radius: 11px;
+    color: white; /* Ensuring text is visible */
+    border: none; /* Removing default border */
+    cursor: pointer; /* Adding a pointer cursor */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the glow effect */
+}
+
+.button:hover {
+    box-shadow: 0 0 100px 10px rgba(246, 101, 101, 0.8); /* Adding the glow effect */
+}
+
+
+.color-theme
+{
+    color: #FF4646;
+}
+
+.circle1 {
+    box-shadow: 0 0 100px 80px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
+    top: -90px;
+    left: -90px;
+}
+
+.circle2 {
+    box-shadow: 0 0 100px 100px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
+}
+
+.body
+{
+    background-color: black;
+}

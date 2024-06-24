@@ -1,5 +1,6 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
+import Navbar from './components/navbar';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -14,6 +15,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+    
+        <Navbar />
         <h1>{message}</h1>
         <p className='para'>okay bro</p>
       </header>
