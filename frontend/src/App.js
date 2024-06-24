@@ -1,6 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
+import Hero from './components/hero';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -17,6 +18,7 @@ function App() {
       <header className="App-header">
     
         <Navbar />
+        <Hero />
         <h1>{message}</h1>
         <p className='para'>okay bro</p>
       </header>
