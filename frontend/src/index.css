@@ -22,6 +22,11 @@
 {
     color: #FF4646;
 }
+.color-bg
+{
+    background-color: #FF4646;
+}
+
 
 .circle1 {
     box-shadow: 0 0 100px 80px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
@@ -32,10 +37,29 @@
 .circle2 {
     box-shadow: 0 0 100px 80px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
     right: -60px;
-    bottom: 250px;
+    bottom: 400px;
+}
+.circle3 {
+    box-shadow: 0 0 100px 80px rgba(255, 4, 4, 0.8); /* Increased blur radius and added spread radius */ /* Ensure the position is set for top and left properties to work */
+    left: -40px ;
+    bottom:200px ;
 }
 
 .body
 {
     background-color: black;
+}
+
+.cards
+{
+    border: 1px solid #ae3939;
+}
+
+.borderl
+{
+border-left: 1px #FF4646;
+}
+.borderr
+{
+    border-right: 1px #FF4646 ;
 }

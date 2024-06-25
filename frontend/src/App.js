@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
+import Feature from './components/features';
+import Footer from './components/footer';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -19,8 +21,10 @@ function App() {
     
         <Navbar />
         <Hero />
+        <Feature/>
         <h1>{message}</h1>
         <p className='para'>okay bro</p>
+        <Footer/>
       </header>
     </div>
   );
