@@ -4,26 +4,20 @@ import React from 'react';
 const features = [
   {
     icon: '★', // Replace this with your own icon
-    heading: "Feature 1",
-    description: "This is the description for feature 1.",
+    heading: "Decentralization",
+    description: "Ensures security, transparency, and eliminates intermediaries.",
     imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
   },
   {
     icon: '🚀', // Replace this with your own icon
-    heading: "Feature 2",
-    description: "This is the description for feature 2.",
+    heading: "Variety of APIs",
+    description: "From data and finance to social media and weather.",
     imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
   },
   {
     icon: '⚙️', // Replace this with your own icon
-    heading: "Feature 3",
-    description: "This is the description for feature 3.",
-    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
-  },
-  {
-    icon: '⚙️', // Replace this with your own icon
-    heading: "Feature 4",
-    description: "This is the description for feature 4.",
+    heading: "User-Friendly Interface",
+    description: "Intuitive search and navigation for seamless access.",
     imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
   },
 ];
