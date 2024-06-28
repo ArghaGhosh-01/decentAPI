@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Feature from './components/features';
 import Footer from './components/footer';
+import APIPage from './components/apiPage';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -22,6 +23,7 @@ function App() {
         <Navbar />
         <Hero />
         <Feature/>
+        <APIPage />
         <h1>{message}</h1>
         <p className='para'>okay bro</p>
         <Footer/>
