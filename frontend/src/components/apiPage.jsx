@@ -23,6 +23,42 @@ const APIPage = () => {
       category: 'AI/ML',
       image: 'https://via.placeholder.com/600x400', // Replace with actual image path
     },
+    {
+      title: 'Weather API',
+      description: 'Get real-time weather data for any location.',
+      category: 'Weather',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
+    {
+      title: 'Payment Gateway API',
+      description: 'Integrate secure payment processing into your app.',
+      category: 'Finance',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
+    {
+      title: 'Image Recognition API',
+      description: 'Analyze images and detect objects with machine learning.',
+      category: 'AI/ML',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
+    {
+      title: 'Weather API',
+      description: 'Get real-time weather data for any location.',
+      category: 'Weather',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
+    {
+      title: 'Payment Gateway API',
+      description: 'Integrate secure payment processing into your app.',
+      category: 'Finance',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
+    {
+      title: 'Image Recognition API',
+      description: 'Analyze images and detect objects with machine learning.',
+      category: 'AI/ML',
+      image: 'https://via.placeholder.com/600x400', // Replace with actual image path
+    },
   ];
 
   return (

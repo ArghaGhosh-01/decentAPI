@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ api }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+    <div className="bg-white shadow-lg rounded-xl overflow-hidden">
       <img className="w-full h-40 object-cover" src={api.image} alt={api.title} />
       <div className="p-4">
         <h2 className="text-lg font-semibold mb-2">{api.title}</h2>
