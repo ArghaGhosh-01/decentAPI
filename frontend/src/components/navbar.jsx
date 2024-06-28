@@ -19,7 +19,7 @@ function Navbar() {
             About
           </button>
           <button className="text-white mx-10 button">
-            Contact Us
+            Connect Wallet
           </button>
         </div>
         <div className="md:hidden">

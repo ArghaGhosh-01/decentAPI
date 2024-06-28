@@ -1,24 +1,27 @@
 // src/Feature.js
 import React from 'react';
+import Decent from '../assets/decent.png';
+import Api from '../assets/api.png';
+import Ux from '../assets/UX.png';
 
 const features = [
   {
     icon: '★', // Replace this with your own icon
     heading: "Decentralization",
     description: "Ensures security, transparency, and eliminates intermediaries.",
-    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
+    imgSrc: Decent, // Replace with actual image path
   },
   {
     icon: '🚀', // Replace this with your own icon
     heading: "Variety of APIs",
     description: "From data and finance to social media and weather.",
-    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
+    imgSrc: Api, // Replace with actual image path
   },
   {
     icon: '⚙️', // Replace this with your own icon
     heading: "User-Friendly Interface",
     description: "Intuitive search and navigation for seamless access.",
-    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s', // Replace with actual image path
+    imgSrc: Ux, // Replace with actual image path
   },
 ];
 
@@ -39,7 +42,7 @@ function Feature() {
                 src={feature.imgSrc}
                 key={index}
                 alt={feature.heading}
-                className="h-60 w-60 object-cover rounded-lg "
+                className="h-40 w-40 object-cover rounded-lg "
               />
             </div>
             <div className="flex-1 text-center flex flex-col items-center ">
