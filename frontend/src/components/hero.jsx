@@ -41,7 +41,7 @@ function Hero() {
         </div>
         <div className="flex-1 md:order-2 order-2" style={{ flex: 2 }}>
           <div className="p-4">
-            <img src={illu} height='400' width='500' alt='hero' />
+            <img src={illu} height='400' width='500' alt='hero' className='hero-image' />
           </div>
         </div>
       </div>

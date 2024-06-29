@@ -50,10 +50,7 @@ function Feature() {
               <p className="text-white">{feature.description}</p>
               <span className='mt-4'>
             <button className="text-white button">
-            Docs
-          </button>
-          <button className="text-white mx-4">
-            Login /Signup
+            Learn More
           </button>
             </span>
             </div>

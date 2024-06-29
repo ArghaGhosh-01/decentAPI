@@ -70,3 +70,19 @@ border-left: 1px #FF4646;
 {
     border: 1px solid #FF4646;
 }
+
+.hero-image {
+    animation: upDown 3s infinite;
+  }
+  
+  @keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
