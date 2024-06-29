@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-  
-
 .button {
     background-color: #FF4646;
     padding: 5px 14px;
