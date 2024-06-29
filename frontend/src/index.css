@@ -68,3 +68,8 @@ border-left: 1px #FF4646;
 {
     border-right: 1px #FF4646 ;
 }
+
+.border-card
+{
+    border: 1px solid #FF4646;
+}
