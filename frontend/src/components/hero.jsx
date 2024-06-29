@@ -2,9 +2,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import illu from '../assets/illu.png';
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Hero() {
   const navigate = useNavigate();
+  const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
   const handleExploreClick = () => {
     navigate('/api-marketplace');
@@ -18,15 +20,22 @@ function Hero() {
         <div className="flex-1 md:order-1 order-1" style={{ flex: 3 }}>
           <div className="p-4 mt-14">
             <h2 className="text-6xl font-extrabold text-white">Full Stack, Open source</h2>
-            <span className='text-6xl font-extrabold text-white'>Web3, </span><span className='text-6xl font-extrabold color-theme'>APIs</span>
+            <span className='text-6xl font-extrabold text-white'>Web3, </span>
+            <span className='text-6xl font-extrabold color-theme'>APIs</span>
             <h2 className='text-6xl font-extrabold text-white mb-5'>Integration</h2>
             <span className='m-auto'>
               <button className="text-white button" onClick={handleExploreClick}>
                 Explore
               </button>
-              <button className="text-white button mx-4">
-                Login /Signup
-              </button>
+              {!isAuthenticated ? (
+                <button className="text-white button mx-4" onClick={() => loginWithRedirect()}>
+                  Login / Signup
+                </button>
+              ) : (
+                <button className="text-white button mx-4" onClick={() => logout({ returnTo: window.location.origin })}>
+                  Logout
+                </button>
+              )}
             </span>
           </div>
         </div>
